@@ -1,0 +1,40 @@
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    background: #ffcc00;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.skill p{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+.skill{
+    width: 50%;
+}
+.percent {
+    color: black;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 25px;
+    background: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress{
+    height: 100%;
+    width: 0%;
+    background: #ffcc00;
+    border-radius: 10px;
+    transition: width 0.3s;
+}
